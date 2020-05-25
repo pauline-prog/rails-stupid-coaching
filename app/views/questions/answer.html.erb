@@ -1,0 +1,9 @@
+<div class="user_question">
+  <p><%= params[:user_question]%></p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;- You</p>
+</div>
+<div class="coach_answer">
+  <p><%= @answer%></p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;- Your coach</p>
+</div>
+<%= link_to "Ask a new question", "/ask" %>
